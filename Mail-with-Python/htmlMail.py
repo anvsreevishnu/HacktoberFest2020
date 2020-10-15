@@ -20,6 +20,11 @@ def get_content(path):
         raw_lines = f.readlines()
     content = ''''''.join(raw_lines)
     return content
+# def get_content(path):
+   # with open(path) as f:
+    #    raw_lines = f.readlines()
+   # content = ''''''.join(raw_lines)
+   # return content
 
 
 # Create the plain-text and HTML version of your message
